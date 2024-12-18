@@ -1,0 +1,48 @@
+.card-container1{
+    align-items: center;
+    display: flex;   
+}
+.card{
+    flex: 1;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #dddddd;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card:hover, .card:hover h2 {
+    cursor: pointer;
+    border: none;
+    background: #4b286d;
+    color: #fff;
+    border-bottom: 1px solid #4b286d;
+}
+.card.active, .card.active h2 {
+    background: #4b286d;
+    color: #fff;
+    border-bottom: 1px solid #4b286d;
+}
+.card--cover{
+    background: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: #969393;
+    
+}
+h2{
+    color: white;
+}
+
+.card--title h2{
+    color: rgb(63, 64, 64); 
+}
